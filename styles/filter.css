@@ -1,0 +1,12 @@
+form {
+    overflow: hidden;
+  }
+  input {
+    float: right;
+    clear: both;
+  }
+  .search{
+    position: absolute;
+    right: 0px;
+    margin-top: 10px;
+  }
