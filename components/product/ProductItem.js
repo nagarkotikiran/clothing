@@ -10,7 +10,7 @@ const ProductItem = ({product, handleCheck}) => {
     const userLink = () => {
         return(
             <>
-                <Link href={`product/${product._id}`}>
+                <Link className="details" href={`product/${product._id}`}>
                     <a className="btn btn-info"
                     style={{marginRight: '5px', flex: 1}}>Details</a>
                 </Link>
@@ -75,7 +75,7 @@ const ProductItem = ({product, handleCheck}) => {
                     {product.description}
                 </p>
                     
-                <div className="row justify-content-between mx-0">
+                <div className="row mx-0">
                     {!auth.user || auth.user.role !== "admin" ? userLink() : adminLink()}
                 </div>
             </div>

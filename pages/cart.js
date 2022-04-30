@@ -123,8 +123,8 @@ const Cart = () => {
               <input type="text" name="address" id="address"
               className="form-control mb-2" value={address}
               onChange={e => setAddress(e.target.value)} />
-
-              <label htmlFor="mobile">Mobile</label>
+<br></br>
+              <label htmlFor="mobile">Mobile Number</label>
               <input type="text" name="mobile" id="mobile"
               className="form-control mb-2" value={mobile}
               onChange={e => setMobile(e.target.value)} />

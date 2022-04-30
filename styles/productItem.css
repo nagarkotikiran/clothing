@@ -1,0 +1,54 @@
+.card{
+    border-radius: 15px;
+}
+.card img{
+    border-radius: 15px;
+}
+.card button:nth-child(2){
+    float: right;
+    background: #4502fc;
+    border-radius: 20px;
+    border:none;
+    transition: transform .5s;
+}
+.card button:nth-child(2):hover{
+    color: black;
+    background: rgb(216, 23, 23);
+    transition: .5s;
+    transform: scale(1.1);
+
+}
+.card .btn{
+    float: right;
+    background: #4502fc;
+    border-radius: 20px;
+    border:none;
+    transition: transform .5s;
+}
+.card .btn:hover{
+    color: black;
+    background: rgb(216, 23, 23);
+    transition: .5s;
+    transform: scale(1.1);
+
+}
+.navbar{
+    background-color: #4502fc;
+    color: white;
+}
+
+.buy{
+    height: 40px;
+    width: 15%;
+    background: #4502fc;
+    border-radius: 20px;
+    border:none;
+    transition: transform .5s;
+    color:white;
+}
+.buy:hover{
+    color: black;
+    background: rgb(216, 23, 23);
+    transition: .5s;
+    transform: scale(1.1);
+}

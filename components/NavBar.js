@@ -48,6 +48,7 @@ function NavBar() {
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <img src={auth.user.avatar} alt={auth.user.avatar} 
                     style={{
+                        
                         borderRadius: '50%', width: '30px', height: '30px',
                         transform: 'translateY(-3px)', marginRight: '3px'
                     }} /> {auth.user.name}
@@ -68,7 +69,7 @@ function NavBar() {
     }
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg  ">
             <Link  href="/">
                 <a className="navbar-brand">CLOTHING</a>
             </Link>
@@ -79,7 +80,7 @@ function NavBar() {
                 <ul className="navbar-nav p-1">
                     <li className="nav-item">
                         <Link href="/cart">
-                            <a className={"nav-link" + isActive('/cart')}>
+                            <a className={"nav-link" + isActive('/cart')}>CART
                                 <i className="fas fa-shopping-cart position-relative" aria-hidden="true">
                                     <span className="position-absolute"
                                     style={{

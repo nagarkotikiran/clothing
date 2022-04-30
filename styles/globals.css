@@ -19,6 +19,11 @@ img{
   object-fit: cover;
   object-position: 0 30%;
 }
+
+@import url("./productItem.css");
+
+@import url("./signin.css");
+
 /* ----------- Loading ------------- */
 @import url("./filter.css");
 
