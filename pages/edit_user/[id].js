@@ -78,7 +78,7 @@ const EditUser = () => {
                 <div className="form-group">
                     <input type="checkbox" id="isAdmin" checked={checkAdmin}
                     style={{width: '20px', height: '20px'}} onChange={handleCheck} />
-
+                    
                     <label htmlFor="isAdmin" style={{transform: 'translate(4px, -3px)'}}>
                         isAdmin
                     </label>

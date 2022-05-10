@@ -133,7 +133,7 @@ const Profile = () => {
                         placeholder="Confirm new password" onChange={handleChange} />
                     </div>
 
-                    <button className="btn btn-info" style={{marginTop:'10px'}} disabled={notify.loading}
+                    <button className="btn update btn-info" style={{marginTop:'10px'}} disabled={notify.loading}
                     onClick={handleUpdateProfile}>
                         Update
                     </button>

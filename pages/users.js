@@ -45,10 +45,9 @@ const Users = () => {
                                 <th>
                                     {
                                         user.role === 'admin'
-                                        ? user.root ? <i className="fas fa-check text-success"> Root</i>
-                                                    : <i className="fas fa-check text-success"></i>
-
-                                        :<i className="fas fa-times text-danger"></i>
+                                        ? user.root ? <i className="fas fa-check text-success" >Root</i>
+                                                     : <i className="fas fa-check text-success " ></i>  
+                                     : <i className="fas fa-times text-danger"></i>
                                     }
                                 </th>
                                 <th>
@@ -58,7 +57,6 @@ const Users = () => {
                                     }>
                                         <a><i className="fas fa-edit text-info mr-2" title="Edit"></i></a>
                                     </Link>
-
                                     {
                                         auth.user.root && auth.user.email !== user.email
                                         ? <i className="fas fa-trash-alt text-danger ml-2" title="Remove"

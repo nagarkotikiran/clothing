@@ -28,7 +28,7 @@
     background: #fff8;
     text-align: center;
     font-weight: 400;
-    color: rgb(255, 140, 45);
+    color: rgba(4, 131, 133, 1);
     transition: 0.3 ease-in-out;
 }
 
@@ -49,3 +49,23 @@
     cursor: pointer;
 }
 
+.update{
+    width: 30%;
+    background: rgba(4, 131, 133, 1);
+    border-radius: 15px;
+    border:none;
+    transition: transform .5s;
+    color:white;
+}
+
+.update:hover{
+    color: black;
+    background: rgb(216, 23, 23);
+    transition: .5s;
+    transform: scale(1.1);
+}
+
+.bg-success{
+    background: rgba(4, 131, 133, 1);
+    background-color: rgba(4, 131, 133, 1);
+}

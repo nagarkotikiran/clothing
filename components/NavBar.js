@@ -28,7 +28,7 @@ function NavBar() {
 
     const adminRouter = () => {
         return(
-            <>
+            <div className='link' style={{textTransform:'uppercase'}} >
             <Link href="/users">
                 <a className="dropdown-item">Users</a>
             </Link>
@@ -38,14 +38,14 @@ function NavBar() {
             <Link href="/categories">
                 <a className="dropdown-item">Categories</a>
             </Link>
-            </>
+            </div>
         )
     }
 
     const loggedRouter = () => {
         return(
             <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a style={{textTransform:'uppercase'}} className="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <img src={auth.user.avatar} alt={auth.user.avatar} 
                     style={{
                         
@@ -56,20 +56,20 @@ function NavBar() {
 
                 <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <Link href="/profile">
-                        <a className="dropdown-item">Profile</a>
+                        <a className="dropdown-item link">PROFILE</a>
                     </Link>
                     {
                         auth.user.role === 'admin' && adminRouter()
                     }
                     <div className="dropdown-divider"></div>
-                    <button className="dropdown-item" onClick={handleLogout}>Logout</button>
+                    <button className="dropdown-item li" onClick={handleLogout}>LOGOUT</button>
                 </div>
             </li>
         )
     }
 
     return (
-        <nav className="navbar navbar-expand-lg  ">
+        <nav className="navbar navbar-expand-lg navbar-light ">
             <Link  href="/">
                 <a className="navbar-brand">CLOTHING</a>
             </Link>
@@ -103,7 +103,7 @@ function NavBar() {
                         ? <li className="nav-item">
                             <Link href="/signin">
                                 <a className={"nav-link" + isActive('/signin')}>
-                                    <i className="fas fa-user" aria-hidden="true"></i> Sign in
+                                    <i className="fas fa-user" aria-hidden="true"></i> SIGNIN
                                 </a>
                             </Link>
                         </li>

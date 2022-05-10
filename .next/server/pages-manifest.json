@@ -3,10 +3,10 @@
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
   "/api/order": "pages/api/order.js",
-  "/api/product/[id]": "pages/api/product/[id].js",
-  "/api/auth/accessToken": "pages/api/auth/accessToken.js",
-  "/api/categories": "pages/api/categories.js",
-  "/cart": "pages/cart.js",
+  "/api/product": "pages/api/product.js",
   "/": "pages/index.js",
-  "/api/product": "pages/api/product.js"
+  "/api/auth/login": "pages/api/auth/login.js",
+  "/api/user": "pages/api/user.js",
+  "/product/[id]": "pages/product/[id].js",
+  "/api/product/[id]": "pages/api/product/[id].js"
 }

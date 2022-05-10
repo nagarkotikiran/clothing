@@ -6,8 +6,8 @@
 }
 .card button:nth-child(2){
     float: right;
-    background: #4502fc;
-    border-radius: 20px;
+    background: rgba(4, 131, 133, 1);
+    border-radius: 15px;
     border:none;
     transition: transform .5s;
 }
@@ -20,8 +20,8 @@
 }
 .card .btn{
     float: right;
-    background: #4502fc;
-    border-radius: 20px;
+    background: rgba(4, 131, 133, 1);
+    border-radius: 15px;
     border:none;
     transition: transform .5s;
 }
@@ -33,15 +33,15 @@
 
 }
 .navbar{
-    background-color: #4502fc;
+    background-color: rgba(4, 131, 133, 1);
     color: white;
 }
 
 .buy{
     height: 40px;
     width: 15%;
-    background: #4502fc;
-    border-radius: 20px;
+    background: rgba(4, 131, 133, 1);
+    border-radius: 15px;
     border:none;
     transition: transform .5s;
     color:white;
